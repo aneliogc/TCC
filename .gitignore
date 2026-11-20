@@ -1,0 +1,17 @@
+# Ambiente virtual e cache do Python
+.venv/
+__pycache__/
+*.pyc
+nltk_data/
+
+# Saidas geradas pelo pipeline
+data/processed/
+data/results/
+figuras/
+
+# Documento e PDFs
+*.tex
+*.pdf
+
+# Editor
+.vscode/

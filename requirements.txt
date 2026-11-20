@@ -1,0 +1,17 @@
+# Dependencias do pipeline do TCC (testadas com Python 3.14.5)
+# Instale com: py -m pip install -r requirements.txt
+#
+# Observacao: gensim NAO e usado (nao compila no Python 3.14). O LDA e feito
+# com scikit-learn e a coerencia de topicos e calculada manualmente.
+#
+# Versoes fixadas para garantir reprodutibilidade (ver Secao "Ferramentas e
+# reprodutibilidade" do TCC). matplotlib e numpy sao usados diretamente;
+# scipy entra como dependencia do scikit-learn.
+
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+nltk==3.10.3
+matplotlib==3.11.2
+google-play-scraper==1.2.7
